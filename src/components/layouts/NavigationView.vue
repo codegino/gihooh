@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <span class="logo">G</span>
+    <img :src="require('@/assets/images/g-logo.png')" alt="g logo" height="42" width="42">
     <nav class="nav">
       <router-link class="nav__link" to="/">Home</router-link>
       <router-link class="nav__link" to="/profile">About Me</router-link>

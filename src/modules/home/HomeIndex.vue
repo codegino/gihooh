@@ -17,9 +17,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .hello {
-    .container {
-      background-color: red;
-    }
+  .content {
+    display: flex;
+    justify-content: center;
   }
 </style>
