@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <span>G</span>
+    <span class="logo">G</span>
     <nav class="nav">
       <router-link class="nav__link" to="/">Home</router-link>
       <router-link class="nav__link" to="/profile">About Me</router-link>
@@ -16,12 +16,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blue;
+    align-items: center;
+    background-color: var(--color-primary);
+  }
+
+  .logo {
+    font-size: 2rem;
   }
 
   .nav {
     &__link {
-      color: red;
+      margin: .5rem 1rem;
+      color: var(--color-white);
     }
   }
 </style>
