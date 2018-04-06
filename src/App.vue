@@ -1,15 +1,13 @@
 <template>
   <div id="app">
-    <h1>Hello {{pogi}}</h1>
+    <img src="./assets/logo.png">
+    <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  data: {
-    pogi : "Carlo Gino Catapang"
-  }
+  name: 'App'
 }
 </script>
 
