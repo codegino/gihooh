@@ -1,18 +1,14 @@
 <template>
-  <div class="hello">
-    <div class="container">
-      Hello from {{name}}!
-    </div>
+  <div class="home">
+    <navigation-view></navigation-view>
   </div>
 </template>
 
 <script>
+import NavigationView from '@/components/layouts/NavigationView'
 export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      name: 'Carlo Gino Catapang'
-    }
+  components: {
+    NavigationView
   }
 }
 </script>
