@@ -27,5 +27,8 @@ export default {
 
   .content{
     height: 40rem;
+    display: flex;
+    background-color: var(--color-gray-light-1);
+    justify-content: center;
   }
 </style>

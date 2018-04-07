@@ -1,5 +1,7 @@
 html {
-  --color-primary: gold;
+  --color-primary: red;
+
+  --color-secondary: yellow;
 
   --color-white: #fff;
   --color-gray-light-1: #f9f9f9;
