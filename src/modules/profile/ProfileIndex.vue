@@ -4,12 +4,14 @@
    <div class="content">
      <h1>Hello I'm {{name}}</h1>
    </div>
+   <footer-view></footer-view>
  </div>
 </template>
 
 <script>
 import {mapGetters} from 'vuex'
 import NavigationView from '@/components/layouts/NavigationView'
+import FooterView from '@/components/layouts/FooterView'
 export default {
   computed: {
     ...mapGetters({
@@ -17,7 +19,8 @@ export default {
     })
   },
   components: {
-    NavigationView
+    NavigationView,
+    FooterView
   }
 }
 </script>
