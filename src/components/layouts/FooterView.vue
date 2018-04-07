@@ -51,5 +51,6 @@ export default {
 
   .link {
     padding: 1rem 1.5rem;
+    fill: var(--color-white);
   }
 </style>
